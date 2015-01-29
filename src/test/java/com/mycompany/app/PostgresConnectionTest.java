@@ -9,7 +9,7 @@ import java.net.URLConnection;
 
 import static org.junit.Assert.assertEquals;
 
-public class PostgresConnectionTestTest {
+public class PostgresConnectionTest {
 
     @Test
     public void testPostgres() throws Exception {
