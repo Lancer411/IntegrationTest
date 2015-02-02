@@ -14,7 +14,7 @@ public class PostgresConnectionTest {
     @Test
     public void testPostgres() throws Exception {
         //URL postgres = new URL("http://development.demo.jelastic.com/REST/webapi/myresource/postgresTest");
-        URL postgres = new URL("http://developmentwar.cfapps.io/REST/webapi/myresource/postgresTest");
+        URL postgres = new URL("http://developmentwar.cfapps.io/webapi/myresource/postgresTest");
 
         URLConnection yc = postgres.openConnection();
         BufferedReader in = new BufferedReader(new InputStreamReader(
